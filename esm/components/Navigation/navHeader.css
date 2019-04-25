@@ -1,0 +1,8 @@
+.title {
+    align-items: center;
+    display: inline-flex;
+    font-size: 20px;
+    color: #f95a00;
+    font-weight: bold;
+    text-transform: uppercase;
+}

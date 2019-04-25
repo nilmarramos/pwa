@@ -1,0 +1,17 @@
+.root {
+    font-size: 20px;
+}
+
+.tree {
+}
+
+.leaf {
+}
+
+.branch {
+}
+
+.inactive {
+    position: fixed;
+    visibility: hidden;
+}

@@ -1,0 +1,68 @@
+.root {
+    display: flex;
+    justify-content: center;
+    background: #ffffff;
+    box-shadow: -2px 15px 12px -7px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.open {
+    composes: root;
+}
+
+.closed {
+    composes: root;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    height: 80px;
+    background-color: #fff;
+
+}
+
+.navTrigger,
+.cartTrigger {
+    composes: root from '../clickable.css';
+    height: 3rem;
+    width: 3rem;
+}
+
+.logo {
+
+
+}
+
+.primaryActions {
+
+}
+
+.secondaryActions {
+    display: grid;
+    grid-auto-flow: column;
+    align-content: center;
+    align-items: center;
+
+}
+
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+
+}
+/*@media (min-width: 1024px) {*/
+/*    .primaryActions {*/
+/*        display: none;*/
+/*    }*/
+/*}*/
+@media (max-width: 427px) {
+    .toolbar {
+        width: 100%;
+    }
+}

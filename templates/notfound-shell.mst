@@ -1,0 +1,8 @@
+{{> templates/open-document}}
+    <title>Imagination Media</title>
+  {{> templates/open-body }}
+    <div id="root">
+        Not found!
+    </div>
+  {{> templates/seed-bundles}}
+{{> templates/close-document}}
